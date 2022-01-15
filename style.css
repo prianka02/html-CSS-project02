@@ -1,0 +1,145 @@
+.influencer-css{
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 52px;
+line-height: 70px;
+    margin-left: 120px;
+    display: flex;
+
+}
+.paragraph{
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+ 
+}
+.prebook{
+    display: flex;
+    
+    align-items: center;
+    height: 50px;
+    width: 150px;
+    background-color: #E02C6D;
+    border: none;
+    border-radius: 25px;
+    color:  #FFFFFF;
+    font-size: 15px ;
+     padding-left: 50px;
+}
+.fas{
+    padding-left: 20px;
+}
+.main-camera{
+    height: 440px;
+    width: 410px;
+}
+.collections {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 30px 30px;
+    padding-left: 220px;
+    
+    
+}
+.item-collection{
+    padding:10px;
+    box-shadow: 2px 2px 3px 2px rgb(235, 222, 222);
+    background-color: #ffffff00;
+    border-radius: 5px;
+
+    
+}
+.item-collection img{
+    width: 280px;
+}
+.item-collection p{
+    color: #787885;
+    font-family: Poppins;
+}
+.see-more{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    color: #E02C6D;
+    font-size: 20px ;
+     
+}
+.fa-star, .fa-star-half-alt{
+    font-size: 10px;
+    color: #FB8200;
+    padding : 0px 4px 0px 0px;
+}
+.rating{
+    display: flex;
+    align-items: center;  
+    
+    
+    }
+.container{
+    font-family: Poppins;
+    box-sizing: border-box;
+    background-color: thistle;
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    margin: 0% 40% 0% 40%;
+
+}
+.btn{
+
+    background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.btn:hover{
+    opacity: 1;
+}
+ 
+.footer-part{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    background-color: darkslateblue;
+    padding: 10px;
+    color: white;
+}
+
+
+@media only screen and (max-width: 688px){
+    .influencer-css {
+        
+        font-size: 100%;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        line-height: 25px;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+    
+    }
+    .main-camera{
+    
+        width: 250px;
+        height: 500px;
+        margin-bottom: 0px;
+        
+    }
+    .collections{
+        grid-template-columns: 200px;
+        padding-left: 0;
+        
+    }
+    .fas{
+        padding-left: 0px;
+    }
+    
+    
+}
